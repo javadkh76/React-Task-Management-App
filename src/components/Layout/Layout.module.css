@@ -1,0 +1,31 @@
+.layout-header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+.logo{
+    height: 32px;
+    padding-inline: 10px;
+    color: white;
+}
+.layout-site{
+    padding: 0 50px;
+}
+.layout-content{
+    padding: 24px;
+    min-height: 380px;
+    background: rgb(255, 255, 255)
+}
+@media screen and (max-width: 576px) {
+    .layout-site{
+        padding-inline: 20px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .layout-site{
+        padding-inline: 0px;
+    }
+}

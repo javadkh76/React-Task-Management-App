@@ -1,0 +1,51 @@
+{
+  "name": "task-management-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "antd": "^5.9.1",
+    "axios": "^1.5.0",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.5",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/parser": "^6.7.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "eslint": "^8.49.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "jsdom": "^21.1.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error",
+      "react/jsx-no-target-blank": "off"
+    }
+  }
+}
